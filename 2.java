@@ -37,9 +37,7 @@ class Cuboid {
     public double getSurfaceArea() {
         return 2 * (l * b + b * h + h * l);
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         Cuboid c1 = new Cuboid(5, 10, 15);
         System.out.println("Cuboid 1:");
