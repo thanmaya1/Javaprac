@@ -48,7 +48,7 @@ class Student {
     }
 
     public double getPercentage() {
-        return (m1 + m2 + m3) / 3.0*100;
+        return (m1 + m2 + m3) / 3.0;
     }
 }
 
